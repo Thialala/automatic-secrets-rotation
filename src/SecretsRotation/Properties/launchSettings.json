@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "SecretsRotation": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7187",
+      "launchBrowser": false
+    }
+  }
+}
