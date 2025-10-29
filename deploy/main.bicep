@@ -144,7 +144,7 @@ resource functionApp 'Microsoft.Web/sites@2022-09-01' = {
   properties: {
     serverFarmId: functionAppPlan.id
     siteConfig: {
-      netFrameworkVersion: 'v6.0'
+      netFrameworkVersion: 'v9.0'
       use32BitWorkerProcess: false
       ftpsState: 'Disabled'
       appSettings: [        
